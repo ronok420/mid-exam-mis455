@@ -19,11 +19,35 @@
 
 
 
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="suggestion">Suggestion:</label>
+                <textarea id="suggestion" name="suggestion" required></textarea>
+    
+                <button type="button" onclick="contactForm()">Submit</button>
+            </form>
+        </div>
+    
+        <!-- Display Input -->
+        <div class="display-input" id="displayInput">
+          <!-- input from js here -->
+        </div>
+
+
+
     
 
         <footer id="footer_text">
             <h1>online <span id="ft_text_clr">product buy</span></h1>
             <p>@ buy from  our shop  </p>
         </footer>
+        <script src="script.js"></script>
 </body>
 </html>
