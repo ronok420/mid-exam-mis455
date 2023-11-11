@@ -18,3 +18,19 @@
     background-color: #ddd;
     color: black;
 }
+
+
+
+/* footer
+ */
+
+
+ #footer_text {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+#ft_text_clr {
+    color: rgba(255, 99, 71, 0.76);
+}
