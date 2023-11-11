@@ -138,3 +138,33 @@ p {
 
 
 }
+
+
+
+/* product css */
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 200px;
+    padding: 20px;
+}
+
+.section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.image-product-container {
+    
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.image-product-container img {
+    max-width: 100%;
+    height: auto;
+}
