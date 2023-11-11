@@ -48,3 +48,35 @@ font-family: 'Gabarito', sans-serif;
 #ft_text_clr {
     color: rgba(255, 99, 71, 0.76);
 }
+
+
+
+
+
+
+
+.product-divs {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.product-div {
+    text-align: center;
+}
+
+.product-div img {
+    width: 100%;
+    border: 5px solid #333;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.images img {
+    width: 30%;
+    border: 5px solid #333;
+}
