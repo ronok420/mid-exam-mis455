@@ -80,3 +80,61 @@ font-family: 'Gabarito', sans-serif;
     width: 30%;
     border: 5px solid #333;
 }
+
+
+/* section1 */
+h1 {
+    font-size: 51px;
+}
+
+h2 {
+    font-size: 46px;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+#section_1 {
+    display: flex;
+    background-color: #b98ec656;
+    /* background-color: #99c68e56; */
+    box-shadow: 10px 10px 100px rgba(172, 255, 47, 0.39);
+}
+.width_1 {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.width_1 img {
+    width: 50%;
+    padding-left: 6%;
+    margin-top: 5%;
+
+}
+.border_claass {
+    border-left: solid 5px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    border-radius: 4px;
+    width: 50%;
+
+}
+.paste_color {
+    color: #73A16C;
+}
+.text_color {
+    color: #73a16cc2;
+    box-shadow: 10px 10px 50px rgba(172, 255, 47, 0.726);
+}
+.link_button {
+    text-decoration: none;
+    background: linear-gradient(rgb(23, 221, 178), rgba(255, 99, 71, 0.699));
+    padding: 10px 25px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+
+
+}
