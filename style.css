@@ -143,6 +143,7 @@ p {
 
 /* product css */
 
+
 .product-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -169,6 +170,42 @@ p {
     height: auto;
 }
 
+
+
+
+
+.section-title {
+    color: #562EFF;
+    font-size: 24px;
+    margin-top: 3px;
+}
+.top-product {
+    margin-bottom: 30px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+
+}
+
+.product img {
+    height: 56px;
+    width: 56px;
+}
+
+.product-name {
+
+    margin: 15px;
+    font-size: 18px;
+
+}
+
+.product {
+    display: flex;
+    align-items: center;
+}
 
 
 
